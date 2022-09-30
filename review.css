@@ -30,10 +30,14 @@ html {
     height: 50px;
     border: 2px solid black;
     font-size: 16px;
+    padding: 5px;
 }
 .review{
     text-align: center;
     margin: 10px;
+}
+.pic{
+    padding: 10px;
 }
 nav{
     flex: 1;
