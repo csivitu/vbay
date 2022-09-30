@@ -8,14 +8,32 @@ html {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
-
+.title{
+    text-align: center;
+}
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center ;
     padding: 20px;
     width: 100%;
+}
+.pic,.post,.describe{
+    border-radius: 10px;
+    margin: 5px;
+}
+.post{
+    background-color: rgb(218, 165, 44);
+    padding:10px;
+}
+.describe{
+    height: 50px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+.review{
+    text-align: center;
+    margin: 10px;
 }
 nav{
     flex: 1;
