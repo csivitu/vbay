@@ -74,10 +74,12 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/csivitu/vbay/
 ```
-2. Install NPM packages
+2. Start a new branch.
 ```sh
-npm install
+Check Contributing topic to find out about branching
 ```
+
+3. And start your contributions.
 
 
 
