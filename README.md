@@ -69,20 +69,10 @@ git clone https://github.com/csivitu/vbay/
 ```
 2. Start a new branch.
 ```sh
-Check [Contributing](#contributing) topic to find out about branching
+Check Contributing topic to find out about branching
 ```
 
 3. And start your contributions.
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 
 <!-- ROADMAP -->
@@ -118,4 +108,4 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 [csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
 [csivitu-url]: https://csivit.com
 [issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
-[issues-url]: https://github.com/csivitu/Template/issues
+[issues-url]: https://github.com/csivitu/vbay/issues
