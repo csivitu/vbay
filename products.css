@@ -64,8 +64,16 @@ p {
     border: 2px solid rgb(3, 3, 3);
     font-size: 1rem;
     padding: 0.05rem;
-    transition: 0.35s ease-in;
+    transition: 0.5s ease-in;
 }
+
+.btn:hover {
+	border: 2px solid rgb(162, 15, 118);
+	color: rgb(162, 15, 118);
+	background-color: transparent;
+}
+
 .img{
 	height: 300px;
 	width: 280px;
+}
