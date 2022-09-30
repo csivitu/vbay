@@ -66,3 +66,6 @@ p {
     padding: 0.05rem;
     transition: 0.35s ease-in;
 }
+.img{
+	height: 300px;
+	width: 280px;
