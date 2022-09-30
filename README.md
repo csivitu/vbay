@@ -44,20 +44,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Template`
-
+Project Name - Vbay
 
 ### Built With
 
-* []()
-* []()
-* []()
+* Html
+* CSS
 
+### Made By
 
+[Bhavya](https://github.com/Bhavya1403)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -76,7 +72,7 @@ npm install npm@latest -g
  
 1. Clone the repo
 ```sh
-git clone https://github.com/csivitu/Template.git
+git clone https://github.com/csivitu/vbay/
 ```
 2. Install NPM packages
 ```sh
