@@ -95,3 +95,17 @@ p{
 .btn:hover {
     transform: scale(1.05);
 }
+
+/* scroll bar css */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+    border-radius: 10px;
+  }
