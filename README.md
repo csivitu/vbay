@@ -1,27 +1,29 @@
 [![csivit][csivitu-shield]][csivitu-url]
 [![Issues][issues-shield]][issues-url]
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/csivitu/Template">
-    <img src="https://csivit.com/images/favicon.png" alt="Logo" width="80">
+  <a href="https://github.com/csivitu/projectname">
+    <img src="favicon.png" alt="Logo" width="100">
+  </a><a href="https://github.com/csivitu/projectname">
+    <img src="forkthis_logo.png" alt="Logo" width="100">
   </a>
 
-  <h3 align="center">vbay</h3>
+  <h3 align="center">projectname</h3>
 
   <p align="center">
-    Basic ecommerce website whose name has totally not been stolen from somewhere.
+    Short description abt the project .
     <br />
-    <a href="https://github.com/csivitu/Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/csivitu/projectname/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/csivitu/Template">View Demo</a>
+    <a href="https://github.com/csivitu/projectname/issues">Report Bug</a>
     ·
-    <a href="https://github.com/csivitu/Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/csivitu/Template/issues">Request Feature</a>
-  </p>
+    <a href="https://github.com/csivitu/projectname/issues">Request Feature</a>
+    <br />
+    </p>
 </p>
 
 
@@ -42,21 +44,19 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!--WHAT IS -->
+## What is projectname ?
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`Template`
+Give a short introduction of what is the project about the project.
+Explaining all the features and what would be the finished product.
 
+### Built Using
 
-### Built With
-
-* []()
-* []()
-* []()
+* [Python](https://www.python.org/)
+* [Pygame](https://www.pygame.org/news)
+* [Pygame Mixer](https://www.pygame.org/docs/ref/mixer.html)
 
 
 
@@ -67,38 +67,38 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+All the *software* you need to get started with the project :)   
+* python
+
+  follow the link to install python : https://www.digitalocean.com/community/tutorials/install-python-windows-10
+
+
+* pip3
+
+  follow the link to install pip3 : 
+
+  https://www.activestate.com/resources/quick-reads/how-to-install-and-use-pip3/
+
 
 ### Installation
  
-1. Clone the repo
+1.Clone the repo
 ```sh
-git clone https://github.com/csivitu/Template.git
+git clone git@github.com:csivitu/projectname.git
 ```
-2. Install NPM packages
+2.Install pygame
 ```sh
-npm install
+pip3 install pygame
 ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+or 
+```sh
+pip install pygame
+```
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/csivitu/Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/csivitu/projectname/issues) for a list of proposed features (and known issues).
 
 
 
