@@ -43,6 +43,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+It is an e-commerce website whose name has totally not been stolen from somewhere else. It is a front-end based project where the participants will learn styling of pages, html and css features etc. It has been made using Html and Css.
 
 Project Name - Vbay
 
