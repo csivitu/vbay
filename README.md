@@ -1,5 +1,4 @@
 [![csivit][csivitu-shield]][csivitu-url]
-[![Issues][issues-shield]][issues-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -64,7 +63,7 @@ To get a local copy up and running follow these simple steps.
 
 
 ### Installation
- 
+
 1. Clone the repo
 ```sh
 git clone https://github.com/csivitu/vbay/
@@ -97,11 +96,13 @@ Contributions are what make the open source community such an amazing place to b
 
 You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
 
+## License
+
+Made with love by *CSIVITU* for the event Forkthis!
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
-
 
 
 
@@ -110,4 +111,3 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 [csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
 [csivitu-url]: https://csivit.com
 [issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
-[issues-url]: https://github.com/csivitu/vbay/issues
