@@ -43,17 +43,23 @@ p{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 3rem;
 
 }
+.row img {
+    margin: 2rem;
+}
 .col-2{
     min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 .col-2 h1{
     font-size: 50px;
