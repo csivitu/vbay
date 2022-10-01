@@ -86,3 +86,48 @@ p{
     background: rgb(0, 0, 0); 
     border-radius: 10px;
   }
+
+  .carousel-container {
+    width: 30rem;
+    margin: 2rem auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .carousel-slide{
+    display: flex;
+    width: 100%;
+    /* height: 500px; */
+  }
+  .carousel-slide img {
+    width: 100%;
+  }
+  #prevBtn,#nextBtn {
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  #prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+
+  }
+  #prevBtn::before {
+    content:'<';
+  }
+  #nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 30px;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+
+  }
+  #nextBtn::before {
+    content:'>';
+  }
