@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="cart.css"> -->
+    <link rel="stylesheet" href="./Styles/cart.css">
     <title>CART</title>
 </head>
+
 <body>
     <div class="cart">
 
-        <div class ="container">
+        <div class="container">
             <div class="navbar">
-                <div class ="logo">
-                    <a href="index.html"><img src="logo.png" width="150px" /></a>
+                <div class="logo">
+                    <a href="index.html"><img src="./Pic/Logo/logo.png" width=" 150px" /></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">
+                                <font size="+2">HOME</font>
+                            </a></li>
+                        <li><a href="products.html">
+                                <font size="+2">PRODUCTS</font>
+                            </a></li>
+                        <li><a href="review.html">
+                                <font size="+2">REVIEW</font>
+                            </a></li>
+                        <li><a class="active" href="">
+                                <font size="+2">CART</font>
+                            </a></li>
+                    </ul>
+                </nav>
+                <style>
+                    body {
+                        background-image: url('./Pic/Background/bg.jpg');
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-size: cover;
+                    }
+                </style>
             </div>
-            <nav>
-            <ul>
-                <li><a href="index.html"><font size="+2">HOME</font></a></li>
-                <li><a href="products.html"><font size="+2">PRODUCTS</font></a></li>
-                <li><a href="review.html"><font size="+2">REVIEW</font></a></li>
-                <li><a class="active" href=""><font size="+2">CART</font></a></li>
-            </ul>
-        </nav>
-        <style>
-            body {
-              background-image: url('bg.jpg');
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover;
-            }
-        </style>
+        </div>
+        <div class="table">
+            <div class="content">
+                <div class="item">Item</div>
+                <div class="table-2">
+                    <div class="price">Price</div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="lists">
+                <div class="item-list">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="price-list">
+                    <p>300</p>
+                    <p>12000</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="total">
+                <p>Total Price: </p>
+                <p>12300</p>
+            </div>
+        </div>
+        <div class="btn">checkout</div>
     </div>
-</div>
-<div class="table">
-    <div class="content">
-            <div class="item">Item</div>
-            <div class="table-2">
-                <div class="price">Price</div>
-            </div>
-        </div>
-        <div class="line"></div>
-        <div class="lists">
-            <div class="item-list">
-                <p>Lorem, ipsum dolor.</p>
-                <p>Lorem, ipsum dolor.</p>
-            </div>
-            <div class="price-list">
-                <p>300</p>
-                <p>12000</p>
-            </div>
-        </div>
-        <div class="line"></div>
-        <div class="total">
-            <p>Total Price: </p>
-            <p>12300</p>
-        </div>
-    </div>
-    <div class="btn">checkout</div>
-</div> 
 </body>
+
 </html>
