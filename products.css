@@ -67,6 +67,7 @@ p {
     padding: 0.05rem;
     transition: 0.35s ease-in;
 }
+
 .row img{
 	height: 300px;
 	width: 280px;
@@ -78,6 +79,7 @@ p {
 	justify-content: space-between;
 	margin-top: 3rem;
 }
+
 
 /* scroll bar css */
 ::-webkit-scrollbar {
