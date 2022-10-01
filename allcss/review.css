@@ -75,3 +75,93 @@ p{
     background: rgb(0, 0, 0); 
     border-radius: 10px;
   }
+  .main {
+    margin-left: 40%;
+    margin-top: 15%;
+   }
+   .rating-star {
+       direction: rtl;
+       font-size: 40px;
+       unicode-bidi: bidi-override;
+       display: inline-block;
+   }
+   .rating-star input {
+       opacity: 0;
+       position: relative;
+       left: -30px;
+       z-index: 2;
+       cursor: pointer;
+   }
+   .rating-star span.star:before {
+       color: #777777;
+   }
+   .rating-star span.star {
+       display: inline-block;
+       font-family: FontAwesome;
+       font-style: normal;
+       font-weight: normal;
+       position: relative;
+       z-index: 1;
+   }
+   .rating-star span {
+       margin-left: -30px;
+   }
+   .rating-star span.star:before {
+       color: #777777;
+       content:"\f006";
+   }
+   .rating-star input:hover + span.star:before, .rating-star input:hover + span.star ~ span.star:before, .rating-star input:checked + span.star:before, .rating-star input:checked + span.star ~ span.star:before {
+       color: #ffd100;
+       content:"\f005";
+   }
+    
+   .selected-rating{
+       color: #ffd100;
+       font-weight: bold;
+       font-size: 42px;
+   }
+   .main {
+    margin-left: 40%;
+    margin-top: 15%;
+   }
+   .rating-star {
+       direction: rtl;
+       font-size: 40px;
+       unicode-bidi: bidi-override;
+       display: inline-block;
+   }
+   .rating-star input {
+       opacity: 0;
+       position: relative;
+       left: -30px;
+       z-index: 2;
+       cursor: pointer;
+   }
+   .rating-star span.star:before {
+       color: #777777;
+   }
+   .rating-star span.star {
+       display: inline-block;
+       font-family: FontAwesome;
+       font-style: normal;
+       font-weight: normal;
+       position: relative;
+       z-index: 1;
+   }
+   .rating-star span {
+       margin-left: -30px;
+   }
+   .rating-star span.star:before {
+       color: #777777;
+       content:"\f006";
+   }
+   .rating-star input:hover + span.star:before, .rating-star input:hover + span.star ~ span.star:before, .rating-star input:checked + span.star:before, .rating-star input:checked + span.star ~ span.star:before {
+       color: #ffd100;
+       content:"\f005";
+   }
+    
+   .selected-rating{
+       color: #ffd100;
+       font-weight: bold;
+       font-size: 42px;
+   }

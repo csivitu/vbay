@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="review.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>REVIEW</title>
 </head>
+
 <body>
-    <div class ="container">
+    <div class="container">
         <div class="navbar">
-            <div class ="logo">
-               <a href="index.html"><img src="logo.png" width="150px" /></a>
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" width="150px" /></a>
             </div>
-        <nav>
-            <ul>
-                <li><a href="index.html"><font size="+2">HOME</font></a></li>
-                <li><a href="products.html"><font size="+2">PRODUCTS</font></a></li>
-                <li><a class="active" href=""><font size="+2">REVIEW</font></a></li>
-                <li><a href="cart.html"><font size="+2">CART</font></a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">
+                            <font size="+2">HOME</font>
+                        </a></li>
+                    <li><a href="products.html">
+                            <font size="+2">PRODUCTS</font>
+                        </a></li>
+                    <li><a class="active" href="">
+                            <font size="+2">REVIEW</font>
+                        </a></li>
+                    <li><a href="cart.html">
+                            <font size="+2">CART</font>
+                        </a></li>
+                </ul>
+            </nav>
         </div>
         <style>
             body {
-              background-image: url('bg.jpg');
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover;
+                background-image: url('bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
             }
         </style>
     </div>
     <div class="review-container">
-        <div class="review-upload"> 
+        <div class="review-upload">
             <h1 class="title">REVIEWS</h1>
         </div>
         <section class="review">
@@ -41,5 +52,28 @@
             <button class="post">Upload the review</button>
         </section>
     </div>
+    <section>
+        <div class="main">
+            <form id="rating-form">
+                <span class="rating-star">
+                    <input type="radio" name="rating" value="5"><span class="star"></span>
+
+                    <input type="radio" name="rating" value="4"><span class="star"></span>
+
+                    <input type="radio" name="rating" value="3"><span class="star"></span>
+
+                    <input type="radio" name="rating" value="2"><span class="star"></span>
+
+                    <input type="radio" name="rating" value="1"><span class="star"></span>
+                </span>
+            </form>
+
+            <p>Thanks For Giving <span id="selected-rating" class="selected-rating">0</span> Stars.</p>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="function.js" type="text/javascript"></script>
+    </section>
 </body>
+
 </html>
