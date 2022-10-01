@@ -67,9 +67,16 @@ p {
     padding: 0.05rem;
     transition: 0.35s ease-in;
 }
-.img{
+.row img{
 	height: 300px;
 	width: 280px;
+}
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 3rem;
 }
 
 /* scroll bar css */
