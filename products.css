@@ -59,13 +59,15 @@ p {
 .active{
 	color:rgb(162, 15, 118);
 }
-.btn{
+.btn:hover{
 	color: rgb(3, 3, 3);
-    background-color:antiquewhite;
+    background-color:aquamarine;
     border: 2px solid rgb(3, 3, 3);
     font-size: 1rem;
     padding: 0.05rem;
-    transition: 0.35s ease-in;
+	transition: 0.5s ease-in;
+
+	
 }
 
 /* scroll bar css */
