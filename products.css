@@ -70,7 +70,6 @@ p {
 .btn:hover {
 	border: 2px solid rgb(162, 15, 118);
 	color: rgb(162, 15, 118);
-	background-color: transparent;
 }
 
 .img{
