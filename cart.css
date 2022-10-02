@@ -9,9 +9,10 @@ html {
 }
 
 body {
-    width: 20%;
+    /* width: 20%; */
 	background: url("vbaypics/bg.jpg");
 }
+
 .navbar{
     align-items: center ;
     padding: 20px;
@@ -52,13 +53,24 @@ p{
     font-weight:400;
     justify-content: center;
     border: 2px solid black;
-    margin: 0 auto;    
+    margin: 0 25rem;
     margin-bottom: 1.2rem;
 }
 
 .table-2 {
     display: flex;
-    gap: 7.5rem;
+    justify-content: end;
+    gap: 7rem;
+}
+
+.lists {
+    display: flex;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
 }
 
 .content {
