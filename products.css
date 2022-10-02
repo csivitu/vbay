@@ -39,6 +39,35 @@ a {
 p {
 	color: #555;
 }
+.icon {
+    width: 2rem;
+}
+.menu-icon {
+    cursor: pointer;
+    display:none;
+}
+
+
+@media screen and (max-width: 850px) {
+    .menu-icon {
+        display: block;
+   }
+   .nav-bar {
+    display: none;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+}
+.nav-bar.responsive {
+    display: block;
+}
+.title {
+	padding-top: 3rem;
+}
+}
 .small-container {
 	margin: auto;
 	padding-left: 25px;

@@ -14,12 +14,15 @@
                <a href="index.html"><img src="logo.png" width="150px" /></a>
             </div>
         <nav>
-            <ul>
+            <ul id="navigation-bar" class="nav-bar">
                 <li><a href="index.html"><font size="+2">HOME</font></a></li>
                 <li><a href="products.html"><font size="+2">PRODUCTS</font></a></li>
                 <li><a class="active" href=""><font size="+2">REVIEW</font></a></li>
                 <li><a href="cart.html"><font size="+2">CART</font></a></li>
             </ul>
+            <a id="menu-icon" class="menu-icon" onClick="onMenuClick()">
+                <img class="icon" src="hamburger.svg"> 
+            </a>
         </nav>
         </div>
         <style>
@@ -41,5 +44,12 @@
             <button class="post">Upload the review</button>
         </section>
     </div>
+    <script>
+         function onMenuClick() {
+        var navbar = document.getElementById('navigation-bar');
+        var responsive_class_name = 'responsive'
+        navbar.classList.toggle(responsive_class_name)
+}
+    </script>
 </body>
 </html>
