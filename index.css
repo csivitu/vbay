@@ -38,6 +38,32 @@ a{
 p{
     color: #555;
 }
+.icon {
+    width: 2rem;
+}
+.menu-icon {
+    cursor: pointer;
+    display:none;
+}
+
+
+@media screen and (max-width: 850px) {
+    .menu-icon {
+        display: block;
+   }
+   .nav-bar {
+    display: none;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+}
+.nav-bar.responsive {
+    display: block;
+}
+}
 
 .container{
     margin: auto;
