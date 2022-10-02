@@ -8,7 +8,7 @@ html{
 }
 /* adding styling for the darkmode */
 .darkMode {
-    background-image: url('bgdark.jpg');
+    background-image: url('../bgdark.jpg');
     color: white;
   }
   
