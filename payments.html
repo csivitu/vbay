@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="payments.css" />
+    <title>payments</title>
+  </head>
+  <body>
+    <h1 class="header">Choose a payment method</h1>
+    <hr />
+    <br />
+    <form>
+      <input type="radio" id="cod" name="payment" />
+      <label for="cod"><h3>cash on delivery</h3></label><br /><br />
+
+      <input type="radio" id="DebitCard" name="payment" />
+      <label for="DebitCard"><h3>card payment</h3></label>
+
+      <a href="https://www.shift4shop.com/credit-card-logos.html"
+        ><img
+          alt="Credit Card Logos"
+          title="Credit Card Logos"
+          src="https://www.shift4shop.com/images/credit-card-logos/cc-lg-4.png"
+          width="413"
+          height="59"
+          border="0"
+      /></a>
+      <br /><br />
+      <input
+        type="radio"
+        id="upi"
+        value="Upi payment"
+        name="payment"
+        checked="checked"
+      />
+      <label for="upi"><h3>Upi payment</h3></label
+      ><!---->
+      <a href="https://www.shift4shop.com/credit-card-logos.html"
+        ><img
+          alt="Credit Card Logos"
+          title="Credit Card Logos"
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/UPI-Logo-vector.svg"
+          width="413"
+          height="59"
+          border="0"
+      /></a>
+      <input class="ConfirmPayment" type="submit" value="Confirm Payment" />
+    </form>
+  </body>
+</html>

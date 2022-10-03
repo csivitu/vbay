@@ -1,0 +1,18 @@
+html{
+    margin:0 5% 0 5%;
+    background-color: black;
+}
+.ConfirmPayment
+{
+    padding:1%;
+    margin-top: 3%;
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.header,label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
