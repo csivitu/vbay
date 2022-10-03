@@ -58,11 +58,25 @@ p{
     margin: 2rem;
 }
 .col-2{
-    min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
+}
+.text{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 1.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
 .col-2 h1{
     font-size: 50px;
