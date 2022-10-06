@@ -1,5 +1,7 @@
 [![csivit][csivitu-shield]][csivitu-url]
 [![Issues][issues-shield]][issues-url]
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors)
+
 
 <!-- PROJECT LOGO -->
 <br />
