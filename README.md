@@ -40,7 +40,7 @@
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
-* [Contributors](#contributors-)
+* [Contributors](#contributors)
 
 
 
@@ -98,6 +98,12 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
+
+## Contributors
+
+<a href="https://github.com/csivitu/vbay/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=csivitu/vbay" />
+
 
 ## License
 
