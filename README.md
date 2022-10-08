@@ -1,4 +1,7 @@
 [![csivit][csivitu-shield]][csivitu-url]
+[![Issues][issues-shield]][issues-url]
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors)
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -37,7 +40,7 @@
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
-* [Contributors](#contributors-)
+* [Contributors](#contributors)
 
 
 
@@ -96,6 +99,12 @@ Contributions are what make the open source community such an amazing place to b
 
 You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
 
+## Contributors
+
+<a href="https://github.com/csivitu/vbay/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=csivitu/vbay" />
+
+
 ## License
 
 Made with love by *CSIVITU* for the event Forkthis!
@@ -111,3 +120,4 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 [csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
 [csivitu-url]: https://csivit.com
 [issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
+[issues-url]: https://github.com/csivitu/vbay/issues
