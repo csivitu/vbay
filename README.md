@@ -20,7 +20,7 @@
     <br />
     <a href="https://github.com/csivitu/Template">View Demo</a>
     ·
-    <a href="https://github.com/csivitu/Template/issues">Report Bug</a>
+    <a href="https://github.com/csivitu/Template/issues">Report a Bug</a>
     ·
     <a href="https://github.com/csivitu/Template/issues">Request Feature</a>
   </p>
