@@ -20,6 +20,39 @@ html {
   padding: 20px;
   width: 100%;
 }
+
+
+
+.textanimate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h3 {
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 5s steps(16) infinite alternate;
+  border-right: 3px solid rgb(120, 12, 209);
+  font-size: 50px;
+  color: rgb(31, 12, 204);
+}
+
+
+@keyframes text {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 16ch;
+  }
+}
+
+
+
 nav {
   flex: 1;
   text-align: right;
@@ -59,7 +92,6 @@ p {
   justify-content: flex-end;
   align-items: center;
 }
-
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
